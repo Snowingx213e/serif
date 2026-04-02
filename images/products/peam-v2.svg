@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-label="PEAM V2">
+  <defs>
+    <linearGradient id="peam" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#150822"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="peamGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#peam)"/>
+  <ellipse cx="400" cy="240" rx="160" ry="90" fill="rgb(192 132 252 / 0.12)" stroke="url(#peamGlow)" stroke-width="2"/>
+  <text x="400" y="255" text-anchor="middle" fill="url(#peamGlow)" font-family="system-ui,Segoe UI,sans-serif" font-size="38" font-weight="800">PEAM V2</text>
+</svg>
